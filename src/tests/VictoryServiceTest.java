@@ -1,10 +1,9 @@
-package tests.gameplay.battle;
+package tests;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -100,6 +99,8 @@ public class VictoryServiceTest {
 
 	@Test
 	public void notLastEnemyDefeated() {
+		UIMain.battleOrder = new ArrayList<Entity>();
+		UIMain.battleOrder.add(UIMain.player);
 		UIMain.player.currentCell.setEnemies(SetupStaticValues.setUpMultipleEnemies());
 		for(Entity enemy : UIMain.player.currentCell.getEnemies()) {
 			UIMain.battleOrder.add(enemy);

@@ -1,4 +1,4 @@
-package tests.commandListener;
+package tests;
 
 import org.junit.Before;
 import org.junit.Test;

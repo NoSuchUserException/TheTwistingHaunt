@@ -1,4 +1,4 @@
-package tests.commandListener;
+package tests;
 
 import static org.mockito.Mockito.verify;
 import static org.junit.Assert.assertFalse;

@@ -1,4 +1,4 @@
-package tests.gameplay.battle.commandServices.utilities;
+package tests;
 
 import static org.junit.Assert.assertTrue;
 
